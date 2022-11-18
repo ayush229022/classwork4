@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+
+}
+nav{
+    background-color:brown;
+}
+h1{
+   color:  deeppink;
+}
+.flex-container{
+    display: flex;
+
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 2s all;
+
+}
+a:hover{
+    background-color: deepskyblue;
+    color: aqua;
+   
+   
+   
+}
+.flex-item1{
+    flex: 20%;
+    background-color: pink;
+    
+    
+
+}
+.flex-item2{
+    flex: 80%;
+     
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-left: 40px;
+    
+}
+.slider{
+    height: 600px;
+    
+}
